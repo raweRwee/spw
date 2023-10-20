@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>恶魔站点</title>
+    <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/880119649000366110/905411822713188372/IMG_6288.gif?ex=65423078&is=652fbb78&hm=b4db922781e2ae249359ff2f9fae83c3d912ae2fe955df38a0a6444b78db0225&">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #gif-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Place le GIF en dessous des autres éléments */
+        }
+
+        #gif {
+            width: 100%;
+            height: 100%;
+        }
+
+        #black-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Noir avec 50% de transparence */
+        }
+
+        #centered-rectangle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: linear-gradient(45deg, rgb(21, 21, 21), rgb(21, 21, 21));
+            width: 500px; /* Largeur du rectangle */
+            height: 250px; /* Hauteur du rectangle */
+            border-radius: 5px; /* Coins moins arrondis */
+            display: flex;
+            flex-direction: column; /* Aligner le texte verticalement */
+            align-items: center;
+            justify-content: center;
+        }
+
+        #centered-rectangle-text {
+            position: absolute;
+            top: 47%;
+            left: 44%;
+            font-size: 20px; /* Taille de la police augmentée */
+            font-weight: bold; /* Texte en gras */
+            font-family: sans-serif; /* Police normale */
+            font-family: sans-serif; /* Police normale */
+            color: white; /* Couleur du texte */
+            content: 'int\'m7'; /* Contenu du texte */
+        }
+
+        #centered-rectangle-subtext {
+            position: absolute;
+            top: 57%;
+            left: 44%;
+            font-size: 13px; /* Taille de la police pour le sous-texte */
+            font-weight: bold; /* Texte en gras */
+            font-family: sans-serif; /* Police normale */
+            color: rgba(255, 255, 255, 0.5); /* Texte transparent de 50% */
+            content: 'xxx.lol/hs'; /* Contenu du sous-texte */
+        }
+
+        #centered-rectangle-subtext-2 {
+            position: absolute;
+            top: 65%;
+            left: 46%;
+            font-size: 12px; /* Taille de la police pour le sous-texte 2 */
+            font-weight: bold; /* Texte en gras */
+            font-family: sans-serif; /* Police normale */
+            color: rgba(255, 255, 255, 1); /* Texte transparent de 50% */
+            content: '👀144'; /* Contenu du sous-texte 2 */
+        }
+
+        #centered-circle {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 150px; /* Diamètre du cercle */
+            height: 150px;
+            background-color: transparent; /* Fond transparent */
+            border: 1px solid black; /* Contour fondu noir */
+            border-radius: 4%; /* Forme du cercle */
+            box-shadow: 0 0 100px rgba(0, 0, 0, 1); /* Ombre de boîte floue pour le contour fondu à 50% */
+            overflow: hidden; /* Masquer le contenu débordant */
+        }
+
+        #gif-inside-circle {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajuster le GIF à la taille du conteneur */
+        }
+
+        #bottom-rectangle {
+            position: absolute;
+            bottom: 0;
+            top: 75%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(45deg, rgb(20, 20, 20), rgb(21, 21, 21));
+            width: 500px; /* Largeur du rectangle */
+            height: 65px; /* Hauteur du rectangle */
+            border-radius: 5px; /* Coins moins arrondis */
+            display: flex;
+            flex-direction: row; /* Aligner le texte et l'image horizontalement */
+            align-items: center;
+            justify-content: space-between; /* Espacement entre le texte et l'image */
+        }
+
+        #bottom-rectangle-text {
+            font-size: 20px; /* Taille de la police augmentée */
+            font-weight: bold; /* Texte en gras */
+            font-family: sans-serif; /* Police normale */
+            color: white; /* Couleur du texte */
+            content: 'Nouveau rectangle'; /* Contenu du texte */
+        }
+
+        #bottom-rectangle-image {
+            max-width: 0px; /* Largeur maximale de l'image */
+            max-height: 00px; /* Hauteur maximale de l'image */
+        }
+    </style>
+</head>
+<body>
+    <a href="http://127.0.0.1:5500/intxxx.com"></a>
+    <div id="gif-container">
+        <img id="gif" src="https://cdn.discordapp.com/attachments/1164887992163377172/1164895061792796692/os-ow.gif?ex=6544e011&is=65326b11&hm=dbe74e182ddf69edf056a0a03f1da856c78bff17eb6731d5cf6a6410950bda40&" alt="GIF en boucle">
+    </div>
+    <div id="black-overlay"></div>
+    <div id="centered-rectangle">
+        <div id="centered-rectangle-text">int'm7</div>
+        <div id="centered-rectangle-subtext"><strong>xxx.lol/hs</strong></div>
+        <div id="centered-rectangle-subtext-2"><strong>👀144</strong></div>
+    </div>
+    <div id="centered-circle">
+        <img id="gif-inside-circle" src="https://cdn.discordapp.com/attachments/1164887992163377172/1164901384295043253/9b5823d7f5f28ddbd26a6dfb7b50f4b1.gif?ex=6544e5f4&is=653270f4&hm=3154cd14987e18e30c29dcaa8b66f7aaaa18195fc3332d9a71dd46fc982dbb58&" alt="Second GIF en boucle">
+    </div>
+    <div id="bottom-rectangle">
+        <div id="bottom-rectangle-image">
+            <img src="https://cdn.discordapp.com/attachments/1164887992163377172/1164914003353542726/discord-logo-0.png?ex=6544f1b5&is=65327cb5&hm=5b20711b215de4060e6552887c1061d713108799cd6ccb4302631e539729c5d5&" alt="Logo Discord">
+        </div>
+        <div id="bottom-rectangle-text">ਇਹ ਸਾਈਟ ਬੇਕਾਰ ਹੈ ਕਿਉਂਕਿ ਮੇਰੇ ਕੋਲ ਕੋਈ ਪ੍ਰੇਰ   ਨਾ ਨਹੀਂ ਹੈ!ਠੀਕ </div>
+    </div>
+</body>
+</html>
